@@ -1,20 +1,25 @@
-# MechResearch-Agent Plan-and-Execute 修复副本
+# MechResearch-Agent
 
-这是从 `E:\yan\hello-agents-1.0.3\mechresearch-agent` 复制出的安全副本，默认保持原来的 **Planner-Executor / DeepResearch** 后端架构，不把前端主链路切到 LangGraph。LangGraph 文件仅作为可选 sidecar 保留，不影响前后端分离模式。
+## 项目简介：
+面向工业项目知识管理场景的任务分解的 Plan-and-Execute式驱动的研究系统，支持PDF等形式的本地知识库上传，围绕离线索引阶段、在线检索阶段、总结每个子任务，最后生成带来源、结构化结论和下一步建议的技术调研报告。
 
-## 为什么这样处理
-
-- LangGraph 可以做前后端分离，但前端是否能打开与 LangGraph 本身无关，关键是 `Vue/Vite` 前端、`FastAPI` 后端、端口和启动目录是否一致。
-- 当前后端默认仍使用 `backend/src/agent.py` 中的 `DeepResearchAgent`，主流程是 `Planner -> Search/RAG -> Summarizer -> Reporter -> Evaluator -> PDF Export`。
-- 为避免“在项目根目录运行 npm run dev 找不到脚本”的问题，本副本新增了根目录 `package.json` 和 PowerShell 启动脚本。
+## 🔧技术栈：
+·FastAPI
+·Vue3
+·TypeScript
+·Vite
+·Python
+·Tavily
+·SSE
 
 ## 启动方式
 
 ### 1. 后端
 
 ```powershell
-cd C:\Users\EkkO\Documents\agent-learning\mechresearch-agent-plan-execute-fixed
-.\start_backend.ps1
+cd mechresearch-agent\backend
+pip install r-requirements.txt
+python main.py(conda run main.py)
 ```
 
 后端默认地址：`http://127.0.0.1:8002`
@@ -28,23 +33,12 @@ Copy-Item .\backend\.env.example .\backend\.env
 ### 2. 前端
 
 ```powershell
-cd C:\Users\EkkO\Documents\agent-learning\mechresearch-agent-plan-execute-fixed
-.\start_frontend.ps1
-```
+cd mechresearch-agent\frontend
 
 前端默认地址：`http://127.0.0.1:5175`
-
-也可以在项目根目录运行：
-
-```powershell
 npm run dev
 ```
 
-### 3. 基础 smoke test
-
-```powershell
-D:\conda_envs\deepre3.11\python.exe smoke_test_project.py
-```
 
 ## 前端打不开时优先检查
 
