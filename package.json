@@ -1,0 +1,14 @@
+{
+  "name": "mechresearch-agent-plan-execute-fixed",
+  "private": true,
+  "version": "0.1.0",
+  "description": "Plan-and-Execute MechResearch-Agent with FastAPI backend and Vue/Vite frontend.",
+  "scripts": {
+    "dev": "npm --prefix frontend run dev",
+    "build": "npm --prefix frontend run build",
+    "dev:frontend": "npm --prefix frontend run dev",
+    "build:frontend": "npm --prefix frontend run build",
+    "typecheck:frontend": "npm --prefix frontend run typecheck",
+    "smoke": "python smoke_test_project.py"
+  }
+}

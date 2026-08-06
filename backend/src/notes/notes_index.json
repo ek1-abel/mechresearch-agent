@@ -1,0 +1,171 @@
+{
+  "notes": [
+    {
+      "id": "note_20260728_204603_0",
+      "title": "任务 1: 湍流模型基础原理",
+      "type": "task_state",
+      "tags": [
+        "deep_research",
+        "task_1"
+      ],
+      "created_at": "2026-07-28T20:46:03.706799"
+    },
+    {
+      "id": "note_20260728_204603_1",
+      "title": "工程应用与实践案例",
+      "type": "task_state",
+      "tags": [
+        "deep_research",
+        "task_2"
+      ],
+      "created_at": "2026-07-28T20:46:03.709804"
+    },
+    {
+      "id": "note_20260728_204603_2",
+      "title": "工具链与仿真方法",
+      "type": "task_state",
+      "tags": [
+        "deep_research",
+        "task_3"
+      ],
+      "created_at": "2026-07-28T20:46:03.710805"
+    },
+    {
+      "id": "note_20260728_204603_3",
+      "title": "任务 4: 标准规范与行业要求",
+      "type": "task_state",
+      "tags": [
+        "deep_research",
+        "task_4"
+      ],
+      "created_at": "2026-07-28T20:46:03.712800"
+    },
+    {
+      "id": "note_20260728_204603_4",
+      "title": "前沿进展与技术趋势",
+      "type": "task_state",
+      "tags": [
+        "deep_research",
+        "task_5"
+      ],
+      "created_at": "2026-07-28T20:46:03.714807"
+    },
+    {
+      "id": "note_20260728_204808_5",
+      "title": "工程技术研究报告：CFD湍流模型在航天发动机叶片冷却中的应用与对比",
+      "type": "conclusion",
+      "tags": [
+        "deep_research",
+        "mech_research",
+        "report"
+      ],
+      "created_at": "2026-07-28T20:48:08.029326"
+    },
+    {
+      "id": "note_20260728_204956_6",
+      "title": "任务 4: 挑战与前沿趋势",
+      "type": "task_state",
+      "tags": [
+        "deep_research",
+        "task_4"
+      ],
+      "created_at": "2026-07-28T20:49:56.190690"
+    },
+    {
+      "id": "note_20260728_204956_7",
+      "title": "任务 3: 工具链与软件",
+      "type": "task_state",
+      "tags": [
+        "deep_research",
+        "task_3"
+      ],
+      "created_at": "2026-07-28T20:49:56.407857"
+    },
+    {
+      "id": "note_20260728_204958_8",
+      "title": "任务 2: CFD应用案例",
+      "type": "task_state",
+      "tags": [
+        "deep_research",
+        "task_2"
+      ],
+      "created_at": "2026-07-28T20:49:58.957975"
+    },
+    {
+      "id": "note_20260728_205314_9",
+      "title": "工程技术研究报告：PINN技术在CFD领域的应用与前景",
+      "type": "conclusion",
+      "tags": [
+        "deep_research",
+        "mech_research",
+        "report"
+      ],
+      "created_at": "2026-07-28T20:53:14.229284"
+    },
+    {
+      "id": "note_20260728_205404_10",
+      "title": "任务 4: 水下发射尾泡气体PINN应用案例",
+      "type": "task_state",
+      "tags": [
+        "deep_research",
+        "task_4"
+      ],
+      "created_at": "2026-07-28T20:54:04.373611"
+    },
+    {
+      "id": "note_20260728_205405_11",
+      "title": "任务 2: 高压尾泡气体水下弹体发射物理建模",
+      "type": "task_state",
+      "tags": [
+        "deep_research",
+        "task_2"
+      ],
+      "created_at": "2026-07-28T20:54:05.993319"
+    },
+    {
+      "id": "note_20260728_205417_12",
+      "title": "任务 5: 验证基准与标准规范调研",
+      "type": "task_state",
+      "tags": [
+        "deep_research",
+        "task_5"
+      ],
+      "created_at": "2026-07-28T20:54:17.734945"
+    },
+    {
+      "id": "note_20260728_205426_13",
+      "title": "任务 3: PINN/DeepONet工具链与仿真方法",
+      "type": "task_state",
+      "tags": [
+        "deep_research",
+        "task_3"
+      ],
+      "created_at": "2026-07-28T20:54:26.913187"
+    },
+    {
+      "id": "note_20260728_205507_14",
+      "title": "任务 1: PINN与PI-DeepONet原理基础",
+      "type": "task_state",
+      "tags": [
+        "deep_research",
+        "task_1"
+      ],
+      "created_at": "2026-07-28T20:55:07.118323"
+    },
+    {
+      "id": "note_20260728_205623_15",
+      "title": "工程技术研究报告：PINN\\PI-DeepONet在高压尾泡气体水下弹体发射研究领域的作用与前景",
+      "type": "conclusion",
+      "tags": [
+        "deep_research",
+        "mech_research",
+        "report"
+      ],
+      "created_at": "2026-07-28T20:56:23.560065"
+    }
+  ],
+  "metadata": {
+    "created_at": "2026-07-28T20:45:48.984549",
+    "total_notes": 16
+  }
+}
